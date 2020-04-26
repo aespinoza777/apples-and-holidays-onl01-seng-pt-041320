@@ -5,7 +5,7 @@ def second_supply_for_fourth_of_july(supplies_hash)
 end
 
 def add_supply_to_winter_holidays(supplies_hash, supply)
-  binding.pry
+  supplies_hash[:winter][:new_years] << supply
   supplies_hash[:winter][:new_years] << supply
 end
 
